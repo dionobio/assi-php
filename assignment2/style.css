@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.class{
+    width: 1200px;
+    margin: 0px auto;
+}
+img{
+    max-width: 100%;
+}
+.logo{
+    height: 80px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.left-nav{
+    display: flex;
+}
+.left-nav li{
+    list-style: none;
+}
+.left-nav li a{
+    padding: 10px;
+    color: black;
+    text-decoration: none   ;
+}
+.left-nav li a:hover{
+    color: blue;
+}
+.banner{
+    background-image: url(banner.png);
+    background-size: cover;
+    padding: 260px;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+    margin: 20px;
+    
+}
+.price{
+    opacity: 50%;
+}
+.footer{
+    text-align: center;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: orange;
+    margin-top: 30px;
+}
